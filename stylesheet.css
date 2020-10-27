@@ -20,6 +20,14 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+  font-family: 'Smythe', serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
 main p {
       font-family: 'Rokkitt', sans-serif;
     font-size: 25px;
