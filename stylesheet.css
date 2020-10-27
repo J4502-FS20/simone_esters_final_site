@@ -14,14 +14,16 @@ nav {
   }
 
 h1 {
-    font-family: 'Smythe', sans-serif;
+color:#2B2D42;
+    font-family: 'Rokkitt', sans-serif;
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 h2 {
-  font-family: 'Smythe', sans-serif;
+color:#2B2D42;
+  font-family: 'Rokkitt', sans-serif;
   font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
@@ -35,7 +37,7 @@ main p {
 
 p {
 color: #000000;
-font-family: 'Smythe', sans-serif;
+font-family: 'Rokkitt', sans-serif;
 font-size: 16px;
 }
 
