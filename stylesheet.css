@@ -85,7 +85,13 @@ nav a:hover{
 
 }
 
-
+ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex ;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
 
 #author h2 {
     font-weight: bold;
