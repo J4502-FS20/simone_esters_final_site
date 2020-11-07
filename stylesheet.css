@@ -65,7 +65,7 @@ img {
   text-align: center;
 }
 
-a:hover {
+img a:hover {
     font-weight: bold;
     background-color: #FCC5CB;
     color: pink;
