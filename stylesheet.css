@@ -109,12 +109,13 @@ ul {
     font-weight: bold;
     font-family: 'Rokkitt', cursive;
     font-size: 25px;
-
+} 
 @media only screen and (min-width: 450px) {
     .places_container{
         width: 46%;
         min-height: 410px;
     }
+
     nav {
 flex-direction: row;
     }
