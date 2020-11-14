@@ -73,7 +73,7 @@ img a:hover {
 }
 
 nav a {
-    color:#FCC5CB;
+    color:#D90429;
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
@@ -83,8 +83,8 @@ nav a {
 
 nav a:hover{
   font-weight: bold;
- background-color: #D90429;
- color: red;
+ background-color: #FCC5CB;
+ color: pink;
 }
 
 #author {
