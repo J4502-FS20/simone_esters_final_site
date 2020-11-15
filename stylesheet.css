@@ -81,7 +81,8 @@ nav a {
     font-family: 'Rokkitt', sans-serif;
   }
 
-nav a:hover:underline{
+nav a:hover
+text-decoration: underline{
   font-weight: bold;
  background-color: #FCC5CB;
  color: pink;
