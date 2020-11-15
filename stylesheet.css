@@ -87,6 +87,15 @@ nav a:hover{
  color: pink;
 }
 
+caption { 
+  color:#D90429;
+text-decoration: none;
+font-weight: bold;
+font-size: 25px;
+text-transform: uppercase;
+font-family: 'Rokkitt', sans-serif;
+}
+
 #author {
     background-color:#D90429;
     padding: 15px;
