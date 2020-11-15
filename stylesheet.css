@@ -86,7 +86,6 @@ nav a {
       background-color: #D90429;
       color: #6B8E9E;
   }
-}
 
 caption {
   color:#D90429;
@@ -115,11 +114,6 @@ ul {
     justify-content:space-around;
     flex-wrap: wrap;
 }
-ul a: hover
-font-weight: bold;
-background-color:##2B2D42
-color:#FCC5CB
-
 
 
 #author h2 {
