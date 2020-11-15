@@ -85,9 +85,10 @@ nav a:hover{
   font-weight: bold;
  background-color: #FCC5CB;
  color: pink;
+ opacity: 0.5
 }
 
-caption { 
+caption {
   color:#D90429;
 text-decoration: none;
 font-weight: bold;
