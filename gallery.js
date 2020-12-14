@@ -1,33 +1,28 @@
-"use strict";
+var slideIndex = 1;
+showSlides(slideIndex);
 
-var photoDivs = document.getElementsByClassName("imageHolder");
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-var nextButton = document.getElementById("button_next");
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-var previousButton = document.getElementById("button_previous");
-
-var currentPhotoNumber = 0;
-
-photoDivs[currentPhotoNumber].classList.remove('hideThisDiv');
-
-nextButton.addEventListener('click', function() {
-  photoDivs[currentPhotoNumber].classList.add("hideThisDiv");
-  currentPhotoNumber = currentPhotoNumber + 1;
-
-  if (currentPhotoNumber === photoDivs.length) {
-    currentPhotoNumber = 0;
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-
-  photoDivs[currentPhotoNumber].classList.remove('hideThisDiv');
-
-});
-
-previousButton.addEventListener('click', function() {
-  photoDivs[currentPhotoNumber].classList.add("hideThisDiv");
-  currentPhotoNumber = currentPhotoNumber - 1;
-
-  if (currentPhotoNumber < 0) {
-    currentPhotoNumber = photoDivs.length - 1;
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
   }
-
-  photoDivs[currentPhotoNumber].classList.remove('hideThisDiv');
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
