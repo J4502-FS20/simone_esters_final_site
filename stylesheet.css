@@ -152,3 +152,50 @@ flex-direction: row;
     min-height: 383px;
   }
 }
+
+.imageGallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .imageHolder {
+    margin: 20px 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+
+  .imageHolder figcaption {
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .button_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hideThisDiv {
+    display: none;
+  }
+
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+      flex: 33.33%;
+      padding: 8px;
+    }
+
+    img {
+      display: flex;
+      justify-content: space-between;
+    }
