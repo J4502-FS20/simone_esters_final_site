@@ -6,9 +6,6 @@ var nextButton = document.getElementById("button_next");
 
 var previousButton = document.getElementById("button_previous");
 
-var randomButton = document.getElementById("button_random");
-
-
 var currentPhotoNumber = 0;
 
 photoDivs[currentPhotoNumber].classList.remove('hideThisDiv');
@@ -34,16 +31,3 @@ previousButton.addEventListener('click', function() {
   }
 
   photoDivs[currentPhotoNumber].classList.remove('hideThisDiv');
-
-});
-
-
-randomButton.addEventListener('click', function() {
-  photoDivs[currentPhotoNumber].classList.add("hideThisDiv");
-
-  var newRandomNumber = Math.random() * photoDivs.length;
-  currentPhotoNumber = Math.floor(newRandomNumber);
-
-  photoDivs[currentPhotoNumber].classList.remove('hideThisDiv');
-
-});
