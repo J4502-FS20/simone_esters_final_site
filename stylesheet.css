@@ -152,3 +152,31 @@ flex-direction: row;
     min-height: 383px;
   }
 }
+
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.imageHolder {
+  margin: 20px 0;
+  
+}
+
+.imageHolder figcaption {
+  margin: 10px 0;
+}
+
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hideThisDiv {
+  display: none;
+}
