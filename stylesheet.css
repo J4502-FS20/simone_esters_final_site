@@ -170,7 +170,11 @@ flex-direction: row;
   margin: 10px 0;
 }
 
-
+img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
 .button_holder {
   display: flex;
   flex-direction: row;
