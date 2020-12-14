@@ -174,7 +174,7 @@ img {
     width: 100%;
     max-width: 500px;
   }
-  
+
 .button_holder {
   display: flex;
   flex-direction: row;
@@ -184,3 +184,17 @@ img {
 .hideThisDiv {
   display: none;
 }
+
+.row {
+    display: flex;
+  }
+
+  .column {
+      flex: 33.33%;
+      padding: 8px;
+    }
+
+    img {
+      display: flex;
+      justify-content: space-between;
+    }
