@@ -157,6 +157,8 @@ flex-direction: row;
       display: flex;
       margin: auto;
       max-width: 1200px;
+      justify-content: center;
+      text-align: center;
   }
 
   .imageGallery {
@@ -174,15 +176,25 @@ flex-direction: row;
 
   .imageHolder caption {
     margin: 10px 0;
-    font-size: 25px; 
+    font-size: 25px;
     font-family:'Rokkitt', sans-serif;
   }
 
   img {
     width: 100%;
     max-width: 500px;
+    justify-content: center;
+    text-align: center;
+
   }
 
+img src {
+  width: 100%;
+  max-width: 500px;
+  justify-content: center;
+  text-align: center;
+  
+}
   .button_holder {
     display: flex;
     flex-direction: row;
@@ -206,4 +218,5 @@ flex-direction: row;
     img {
       display: flex;
       justify-content: space-between;
+
     }
